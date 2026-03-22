@@ -1,0 +1,35 @@
+{
+  "input_address": "София, ул. Милин камък 50-54",
+  "normalized_address": "софия, улица милин камък 50-54",
+  "match_status": "not_found",
+  "source_site": "isofmap.bg",
+  "source_method": "mixed",
+  "confidence": "medium",
+  "target_property": {
+    "display_address": null,
+    "property_identifier": null,
+    "system_id": null,
+    "area_sq_m": null,
+    "territory_type": null,
+    "permanent_use": null,
+    "district": null,
+    "quarter": null,
+    "upi": null,
+    "previous_plan_number": null,
+    "administrative_area": null,
+    "zone": null,
+    "coordinates": null,
+    "geometry": null,
+    "attributes_raw": {}
+  },
+  "neighboring_properties": [],
+  "uncertainties": [
+    "Example placeholder output. Run CLI locally to produce real extraction."
+  ],
+  "errors": [],
+  "debug": {
+    "final_url": null,
+    "network_calls_used": [],
+    "notes": []
+  }
+}
