@@ -20,7 +20,19 @@ npm install
 npm run dev
 ```
 
-Приложението ще е достъпно на показания от Vite локален адрес.
+## Build за production
+```bash
+npm run build
+```
+
+- Build артефактът е в папка `dist/`.
+- `npm run typecheck` е отделна команда за TypeScript проверка.
+
+## Деплой във Vercel
+- Framework preset: **Vite**
+- Build command: `npm run build`
+- Output directory: `dist`
+- Препоръчителна Node версия: **20+**
 
 ## Архитектура
 - `src/data` – seed данни за професии, въпросник и методология.
